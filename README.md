@@ -46,7 +46,11 @@ The Reviews.csv dataset contains 568,454 rows and 10 columns, including key info
 
 
 1. **Invalid Data Entries and Duplicate Product Reviews by Same User**
-   ![Invalid Data Entries](./screenshots/invalid_data_entries.png)
+   Observation:
+         ▪ Found duplicates of products with repeating ProductId. Taking only one review
+            per user each product
+         ▪ Found 2 invalid entries where numerator values exceeded denominator value
+            and they are removed from the dataset.
 
 2. **Distribution of 5-Rating Score in the Dataset**
    ![Distribution of 5-Rating Score](./screenshots/distribution_of_5_rating_score.png)
@@ -60,8 +64,7 @@ The Reviews.csv dataset contains 568,454 rows and 10 columns, including key info
 5. **Top Words Seen in Negative Reviews**
    ![Top Words in Negative Reviews](./screenshots/top_words_negative_reviews.png)
 
-6. **Number of Reviews Rated by Users**
-   ![Number of Reviews Rated by Users](./screenshots/number_of_reviews_rated_by_users.png)
+6. **Number of Reviews Rated by Users: 209307 out of 393917 rated reviews - 53.13 %**
 
 7. **Distribution of Helpfulness Rating to the Users**
    ![Distribution of Helpfulness Rating](./screenshots/distribution_of_helpfulness_rating.png)
@@ -69,16 +72,11 @@ The Reviews.csv dataset contains 568,454 rows and 10 columns, including key info
 8. **Highest and Lowest Rating for the Products**
    ![Highest and Lowest Rating](./screenshots/highest_and_lowest_rating.png)
 
-9. **Percentage Wise Product Ratings for the Entire Data**
-   ![Percentage Wise Product Ratings](./screenshots/percentage_wise_product_ratings.png)
+9. **Total Number of Reviews by Unique Profiles: 175383 / 393917**
 
-10. **Total Number of Reviews by Unique Profiles**
-    ![Total Number of Reviews by Unique Profiles](./screenshots/total_number_of_reviews_by_unique_profiles.png)
+10. **Total Number of Customers or Profiles Who Have Given Reviews for More Than One Product: 218534 / 393917**
 
-11. **Total Number of Customers or Profiles Who Have Given Reviews for More Than One Product**
-    ![Total Number of Customers](./screenshots/total_number_of_customers.png)
-
-12. **Graph of Frequent Reviewers**
+11. **Graph of Frequent Reviewers**
     ![Graph of Frequent Reviewers](./screenshots/graph_of_frequent_reviewers.png)
 
 
